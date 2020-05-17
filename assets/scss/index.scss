@@ -1,0 +1,38 @@
+.root {
+	padding-bottom: 20rpx ;
+}
+
+navigator {
+	display: inline-block;
+}
+button {
+	background-color: rgba(0,0,0,0);
+	border: none;
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+}
+
+button::after {
+	border: none;
+}
+
+/* 图片操作所需画布，隐藏于页面之外 */
+#upload_image_canvas {
+	position: fixed;
+	top: 2000px;
+	left: 2000px;
+}
+.uni-popup {
+	z-index: 9999 !important;
+}
+// 初始化数据加载遮罩层
+#popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 6000;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}

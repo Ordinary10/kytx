@@ -1,0 +1,326 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/car/payment_3",
+			"style": {
+				"navigationBarTitleText": "第三方支付"
+			}
+		},
+		{
+			"path": "pages/car/payment",
+			"style": {
+				"navigationBarTitleText": "余额支付"
+			}
+		},
+		{
+			"path": "pages/car/cashier",
+			"style": {
+				"navigationBarTitleText": "收银台"
+				// "navigationStyle": "custom",
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/dmk/index",
+			"style": {
+				"navigationBarTitleText": "我的DMK"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/collect",
+			"style": {
+				"navigationBarTitleText": "收藏"
+				// "navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/my/address/add",
+			"style": {
+				"navigationBarTitleText": "收货地址设置"
+			}
+		},
+
+		{
+			"path": "pages/my/address/index",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/login/protocol",
+			"style": {
+				"navigationBarTitleText": "隐私协议"
+			}
+		},
+		{
+			"path": "pages/my/set/index",
+			"style": {
+				"navigationBarTitleText": "系统设置"
+			}
+		},
+		{
+			"path": "pages/my/set/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商品",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/my/set/password",
+			"style": {
+				"navigationBarTitleText": "设置支付密码"
+			}
+		},
+
+		{
+			"path": "pages/my/share",
+			"style": {
+				"navigationBarTitleText": "我的分享"
+			}
+		},
+		{
+			"path": "pages/my/sign",
+			"style": {
+				"navigationBarTitleText": "签到赚钱"
+			}
+		},
+
+		{
+			"path": "pages/car/order_detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/order_list",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+
+
+
+		{
+			"path": "pages/goods/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+
+
+
+		{
+			"path": "pages/car/index",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/car/confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+				// "navigationStyle": "custom",
+				// "enablePullDownRefresh": true
+			}
+		},
+
+
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "商品搜索",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+
+
+		{
+			"path": "pages/my/real_auth",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		}, {
+			"path": "pages/my/teachter",
+			"style": {
+				"navigationBarTitleText": "我的导师"
+			}
+		}, {
+			"path": "pages/my/concerned",
+			"style": {
+				"navigationBarTitleText": "我的关注"
+			}
+		}, {
+			"path": "pages/my/news/list",
+			"style": {
+				"navigationBarTitleText": "消息列表"
+			}
+
+		},
+		{
+			"path": "pages/my/news/detail",
+			"style": {
+				"navigationBarTitleText": "消息详情"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "packageA",
+		"pages": [{
+				"path": "money/out",
+				"style": {
+					"navigationBarTitleText": "提现"
+				}
+			},
+			{
+				"path": "money/add_card",
+				"style": {
+					"navigationBarTitleText": "添加银行卡"
+				}
+			},
+			{
+				"path": "money/out_list",
+				"style": {
+					"navigationBarTitleText": "提现记录"
+				}
+			},
+			{
+				"path": "money/out_list_detail",
+				"style": {
+					"navigationBarTitleText": "提现详情"
+				}
+			},
+			{
+				"path": "money/transfer_list_detail",
+				"style": {
+					"navigationBarTitleText": "转账明细"
+				}
+			},
+
+			{
+				"path": "money/index",
+				"style": {
+					"navigationBarTitleText": "我的余额"
+					// "navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "money/transfer_list",
+				"style": {
+					"navigationBarTitleText": "转账记录"
+				}
+			},
+			{
+				"path": "money/list",
+				"style": {
+					"navigationBarTitleText": "余额明细"
+				}
+			},
+			{
+				"path": "money/charge",
+				"style": {
+					"navigationBarTitleText": "充值"
+				}
+			},
+			{
+				"path": "money/income_code",
+				"style": {
+					"navigationBarTitleText": "收款码"
+				}
+			},
+			{
+				"path": "money/income_list",
+				"style": {
+					"navigationBarTitleText": "收款记录"
+				}
+			},
+			{
+				"path": "money/income_list_detail",
+				"style": {
+					"navigationBarTitleText": "收款记录详情"
+				}
+			},
+			{
+				"path": "money/transfer",
+				"style": {
+					"navigationBarTitleText": "转账"
+				}
+			},
+			{
+				"path": "money/transfer_res",
+				"style": {
+					"navigationBarTitleText": "转账结果"
+				}
+			}
+		]
+	}],
+	"tabBar": {
+		"color": "#ABBAC6",
+		"selectedColor": "#2E89F2",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/image/footer/4.png",
+				"selectedIconPath": "./static/image/footer/3.png",
+				"text": "商品"
+			}, {
+
+				"pagePath": "pages/car/index",
+				"iconPath": "./static/image/footer/2.png",
+				"selectedIconPath": "./static/image/footer/1.png",
+				"text": "购物车"
+			},
+			{
+
+				"pagePath": "pages/my/index",
+				"iconPath": "./static/image/footer/6.png",
+				"selectedIconPath": "./static/image/footer/5.png",
+				"text": "我的"
+			}
+		]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "康养天下",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
